@@ -4,12 +4,12 @@ import Logo from './Images/Group 10.png'
 function Navbar(){
     return(
         <>
-        <div class="nav-cont">
+        <div className="nav-cont">
         <nav>
-            <div class="logo">
+            <div className="logo">
                 <img src={Logo} alt="Logo"/>
             </div>
-            <div class="nav-btn">
+            <div className="nav-btn">
                 <a href="./">Home</a>
                 <a href="./">About Us</a>
                 <a href="./">Connect</a>
